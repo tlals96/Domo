@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="MaterialViewPager">
+    <attr name="viewpager_header" format="reference"/>
+    <attr name="viewpager_logo" format="reference"/>
+    <attr name="viewpager_pagerTitleStrip" format="reference"/>
+    <attr name="viewpager_logoMarginTop" format="dimension"/>
+    <attr name="viewpager_color" format="color"/>
+    <attr name="viewpager_headerHeight" format="dimension"/>
+    <attr name="viewpager_headerAlpha" format="float"/>
+    <attr name="viewpager_hideToolbarAndTitle" format="boolean"/>
+    <attr name="viewpager_hideLogoWithFade" format="boolean"/>
+    <attr name="viewpager_enableToolbarElevation" format="boolean"/>
+    <attr name="viewpager_parallaxHeaderFactor" format="float"/>
+    <attr name="viewpager_headerAdditionalHeight" format="dimension"/>
+
+  </declare-styleable>
+  <declare-styleable name="FontAwesomeText">
+    <attr name="fa_icon" format="string"/>
+  </declare-styleable>
+
+  <declare-styleable name="com.cauly.android.ad.AdView">
+    <attr name="appcode" format="string" />
+    <attr name="effect" format="string" />
+    <attr name="dynamicReloadInterval" format="boolean" />
+    <attr name="reloadInterval" format="integer" />
+    <attr name="threadPriority" format="integer" />
+    <attr name="bannerHeight" format="string" />
+    <attr name="enableDefaultBannerAd" format="boolean" />
+  </declare-styleable>
+
+
+</resources>
